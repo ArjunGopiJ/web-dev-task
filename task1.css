@@ -1,0 +1,86 @@
+body{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+.title{
+    text-align: center;
+}
+.r{
+    color:white;
+    background-color: violet;
+    display:inline-block;
+    border-radius: 5px;
+    padding:3px;
+}
+.para{
+    color:black;
+    display: inline-block;
+    padding: 10px;
+}
+hr{
+    width:400px;
+    border-style: dotted;
+    border-color:black;
+}
+.head2{
+    text-align: center;
+}
+.team1{
+    text-align: center;
+}
+.q{
+    color:white;
+    background-color: violet;
+    display:inline-block;
+    border-radius: 5px;
+    padding:3px;
+}
+.imgg{
+    text-align: center;
+    margin:8px;
+}
+.images{
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+}
+.img1{
+    display: inline-block;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin:10px;
+    padding: 10px;
+}
+.a{
+    width: 200px;
+}
+.b{
+    text-align: center;
+    margin-top:-20px;
+}
+.c{
+    text-align: center;
+    margin-top:-20px;
+    color: red;
+}
+@media screen and (max-width:600px){
+ body{
+   width:700px;
+ }
+  hr{
+    width:300px;
+}
+.a{
+  width:100px;
+}
+.para{
+  text-align:center;
+}
+.images{
+  width:660px;
+}
+}
